@@ -16,9 +16,23 @@ This is a mobile application that allows users to view and filter meals. The app
 
 [![Demo](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/31d1b330-bb47-4d62-a556-d875ce9a1ee7.gif?ClientID=vimeo-core-prod&Date=1675067282&Signature=d3381b6b37d3f8d45c4243f2353c87664a397b60)](https://player.vimeo.com/video/794029424)
 
-## Screenshots
 
-## Screenshots
+## Screenshots (Latest version)
+
+<table border="1">
+    <tr>
+        <th align="center"> Categories </th>
+        <th align="center"> Overview </th>
+        <th align="center"> About the Meal </th>
+    </tr>
+    <tr>
+        <td> <img src="https://i.imgur.com/ul3Uz1P.png" width=360 height=760 /></td>
+        <td> <img src="https://i.imgur.com/v4dqmew.png" width=360 height=760 /></td>
+        <td> <img src="https://i.imgur.com/nKvFZQG.png" width=360 height=760 /></td>
+    </tr>
+</table>
+
+## Screenshots (OLD style)
 
 <table border="1">
     <tr>
@@ -45,6 +59,7 @@ npm install
 ```
 npm start
 ```
+
 4. Scan the QR code using the Expo app
 
 ## Dependencies
