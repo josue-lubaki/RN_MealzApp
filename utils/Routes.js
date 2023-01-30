@@ -1,6 +1,6 @@
 const Routes = {
-	MEALS_CATEGORIES: 'MealsCategories',
-	MEALS_OVERVIEW: 'MealsOverview',
+	MEALS_CATEGORIES: 'Meals Categories',
+	MEALS_OVERVIEW: 'Meals Overview',
 };
 
 export default Routes;
