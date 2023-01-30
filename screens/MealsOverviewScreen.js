@@ -3,7 +3,6 @@ import { View, StyleSheet, FlatList } from 'react-native';
 
 import MealItem from '../components/MealItem';
 import { MEALS, CATEGORIES } from '../data/dummy-data';
-import Routes from '../utils/Routes';
 
 const MealsOverviewScreen = ({ route, navigation }) => {
 	const categoryId = route.params.categoryId;
