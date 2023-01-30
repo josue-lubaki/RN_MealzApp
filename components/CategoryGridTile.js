@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
 		shadowOffset: { width: 0, height: 2 },
 		shadowOpacity: 0.25,
 		backgroundColor: Colors.white,
+		shadowRadius: 8,
 		overflow: Platform.select({ ios: 'visible', android: 'hidden' }),
 	},
 	button: {

@@ -6,7 +6,7 @@ import Routes from '../utils/Routes';
 const CategoriesScreen = ({ navigation }) => {
 	const renderCategoryItem = (itemData) => {
 		const pressHandler = () => {
-			navigation.navigate(Routes.MEALS_OVERVIEW);
+			navigation.navigate(Routes.MEALS_OVERVIEW, { categoryId: itemData.item.id });
 		};
 
 		return (
