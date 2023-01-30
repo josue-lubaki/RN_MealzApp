@@ -21,12 +21,22 @@ This is a mobile application that allows users to view and filter meals. The app
 
 <table border="1">
     <tr>
+        <th align="center"> Drawer </th>
         <th align="center"> Categories </th>
+    </tr>
+    <tr>
+        <td> <img src="https://i.imgur.com/XGra0Ky.png" width=360 height=760 /></td>
+        <td> <img src="https://i.imgur.com/ul3Uz1P.png" width=360 height=760 /></td>
+    </tr>
+    <tr>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
         <th align="center"> Overview </th>
         <th align="center"> About the Meal </th>
     </tr>
     <tr>
-        <td> <img src="https://i.imgur.com/ul3Uz1P.png" width=360 height=760 /></td>
         <td> <img src="https://i.imgur.com/v4dqmew.png" width=360 height=760 /></td>
         <td> <img src="https://i.imgur.com/nKvFZQG.png" width=360 height=760 /></td>
     </tr>
