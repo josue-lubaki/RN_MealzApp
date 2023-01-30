@@ -6,6 +6,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { Ionicons } from '@expo/vector-icons';
 
+import { FavoritesContextProvider } from './store/context/favorites-context';
+
 import CategoriesScreen from './screens/CategoriesScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
 import MealDetailsScreen from './screens/MealDetailsScreen';
@@ -60,31 +62,33 @@ export default function App() {
 		<>
 			<StatusBar style='light' />
 			<SafeAreaView style={styles.rootContainer}>
-				<NavigationContainer>
-					<Stack.Navigator
-						screenOptions={{
-							headerStyle: { backgroundColor: Colors.primary },
-							headerTintColor: Colors.white,
-							contentStyle: { backgroundColor: Colors.background },
-						}}
-					>
-						<Stack.Screen
-							name={Routes.DRAWER}
-							component={DrawerNavigator}
-							options={{
-								headerShown: false,
+				<FavoritesContextProvider>
+					<NavigationContainer>
+						<Stack.Navigator
+							screenOptions={{
+								headerStyle: { backgroundColor: Colors.primary },
+								headerTintColor: Colors.white,
+								contentStyle: { backgroundColor: Colors.background },
 							}}
-						/>
-						<Stack.Screen name={Routes.MEALS_OVERVIEW} component={MealsOverviewScreen} />
-						<Stack.Screen
-							name={Routes.MEAL_DETAILS}
-							component={MealDetailsScreen}
-							options={{
-								title: 'About the Meal',
-							}}
-						/>
-					</Stack.Navigator>
-				</NavigationContainer>
+						>
+							<Stack.Screen
+								name={Routes.DRAWER}
+								component={DrawerNavigator}
+								options={{
+									headerShown: false,
+								}}
+							/>
+							<Stack.Screen name={Routes.MEALS_OVERVIEW} component={MealsOverviewScreen} />
+							<Stack.Screen
+								name={Routes.MEAL_DETAILS}
+								component={MealDetailsScreen}
+								options={{
+									title: 'About the Meal',
+								}}
+							/>
+						</Stack.Navigator>
+					</NavigationContainer>
+				</FavoritesContextProvider>
 			</SafeAreaView>
 		</>
 	);

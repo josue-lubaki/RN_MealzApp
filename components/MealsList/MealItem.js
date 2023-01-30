@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet, Pressable, Image, Platform } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import MealDetails from '../components/MealDetails';
-import Colors from '../utils/Colors';
-import Routes from '../utils/Routes';
+import MealDetails from '../MealDetails';
+import Colors from '../../utils/Colors';
+import Routes from '../../utils/Routes';
 
 const MealItem = (props) => {
 	const { id, title, imageUrl, duration, complexity, affordability } = props;
