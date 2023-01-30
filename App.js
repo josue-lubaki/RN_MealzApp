@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CategoriesScreen from './screens/CategoriesScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
+import MealDetailsSreen from './screens/MealDetailsScreen';
 import Routes from './utils/Routes';
 import Colors from './utils/Colors';
 
@@ -34,6 +35,7 @@ export default function App() {
 							}}
 						/>
 						<Stack.Screen name={Routes.MEALS_OVERVIEW} component={MealsOverviewScreen} />
+						<Stack.Screen name={Routes.MEAL_DETAILS} component={MealDetailsSreen} />
 					</Stack.Navigator>
 				</NavigationContainer>
 			</SafeAreaView>
