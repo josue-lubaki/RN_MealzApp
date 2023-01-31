@@ -1,7 +1,7 @@
 import { useLayoutEffect } from 'react';
 
-import { MEALS, CATEGORIES } from '../data/dummy-data';
 import MealsList from '../components/MealsList/MealsList';
+import { MEALS, CATEGORIES } from '../data/dummy-data';
 
 const MealsOverviewScreen = ({ route, navigation }) => {
 	const categoryId = route.params.categoryId;
