@@ -14,10 +14,9 @@ This is a mobile application that allows users to view and filter meals. The app
 
 ## Demonstration
 
-[![Demo](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/31d1b330-bb47-4d62-a556-d875ce9a1ee7.gif?ClientID=vimeo-core-prod&Date=1675067282&Signature=d3381b6b37d3f8d45c4243f2353c87664a397b60)](https://player.vimeo.com/video/794029424)
+[![Demo](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/dc323c13-a7c2-4465-90e6-b0e36aaf1439.gif?ClientID=vimeo-core-prod&Date=1675145326&Signature=378d39cd4dba7dc0328974cac52664fa5d276e64)](https://player.vimeo.com/video/794376762)
 
-
-## Screenshots (Latest version)
+## Screenshots
 
 <table border="1">
     <tr>
@@ -39,19 +38,6 @@ This is a mobile application that allows users to view and filter meals. The app
     <tr>
         <td> <img src="https://i.imgur.com/v4dqmew.png" width=360 height=760 /></td>
         <td> <img src="https://i.imgur.com/nKvFZQG.png" width=360 height=760 /></td>
-    </tr>
-</table>
-
-## Screenshots (OLD style)
-
-<table border="1">
-    <tr>
-        <th align="center"> Categories </th>
-        <th align="center"> Overview </th>
-    </tr>
-    <tr>
-        <td> <img src="https://i.imgur.com/TjrhpUI.png" width=360 height=760 /> </td>
-        <td> <img src="https://i.imgur.com/Rzr03O7.jpg" width=360 height=760 /></td>
     </tr>
 </table>
 
